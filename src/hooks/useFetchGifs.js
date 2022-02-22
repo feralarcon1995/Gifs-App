@@ -30,14 +30,7 @@ export const useFetchGif = (category) => {
 
 }, [])
 
-//   setTimeout(() => {
 
-//     setState({
-//         data:[1,2,3,4,5,6,7],
-//         loading: false
-//     })
-
-//   },3000)
 
 return state;
 
