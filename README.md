@@ -2,6 +2,8 @@
 
 ## Demo 💻
 
+https://feralarcon1995.github.io/Gifs-App/
+
 <img src="https://i.postimg.cc/mR5rdKT0/gifapp.png" alt="gif app picture"/>
 <br><br>
 
