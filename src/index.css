@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.app-header {
+  background-image: url(https://i.postimg.cc/XJ8Lq1PZ/fondo123123.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.app-header h2 {
+  align-self: center;
+  font-size: 3rem;
+  padding-top: 30px;
+}
+
+.app-main {
+  background-color: #232323;
+  color: #eee;
+  min-height: 100vh;
+  max-height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group{
+  width: 50%;
+}
+input {
+  border: 1px solid #eee;
+  color: #eee;
+  font-size: 1.2rem;
+  outline: none;
+  width: 90%;
+}
+
+.modal-title{
+  color:#232323;
+  text-align: center;
+}
+
+
+footer{
+  background-image: url(https://i.postimg.cc/XJ8Lq1PZ/fondo123123.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+footer h4 a{
+  text-decoration: none;
+}
+
+
+/*CARD GIF*/
+.card-grid{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.card{
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+}
+
+.card img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card h3{
+  align-items: center;
+  color: #232323;
+  font-size: 24px;
+  display: flex;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+}
+
+.category-title{
+  color: #eee;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 630px){
+
+  .app-header{
+    height: 100%;
+  }
+ .category-title{
+   text-align: center;
+ }
+  .form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .form-group input{
+    width: 93%;
+  }
 }
