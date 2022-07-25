@@ -4,7 +4,7 @@
 
 https://feralarcon1995.github.io/Gifs-App/
 
-<img src="https://i.postimg.cc/mR5rdKT0/gifapp.png" alt="gif app picture"/>
+<img src="https://media.giphy.com/media/uB8kyYW7ya0h3bF7Kr/giphy-downsized-large.gif" alt="gif app picture"/>
 <br><br>
 
 ## About the app 📄
